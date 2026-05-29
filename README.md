@@ -1,2 +1,1 @@
-# -encryption-and-decryption-program-
-加密解密程序（encryption and decryption program）
+直接运行就行，可能会有版本兼容问题，可以评论区告我
