@@ -108,7 +108,7 @@ int main() {
                 copyToClipboard(cipherText);
                 cout << "已自动复制到剪贴板！" << endl;
             } else if (choice == 2) {
-                cout << "输入密文（Ctrl+Z回车结束）：\n";
+                cout << "输入密文（回车+ Ctrl+Z +回车结束）：\n";
                 string cipherText, line;
                 while (getline(cin, line)) {
                     cipherText += line;
