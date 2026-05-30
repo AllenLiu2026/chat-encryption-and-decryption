@@ -1,16 +1,35 @@
-# 聊天加密和解密程序
-这是一个用C++实现的聊天消息加密解密工具，支持多行文本加密与解密
+# chat-encryption-and-decryption
 
-## 项目特点
-1. 纯C++实现，无额外依赖
-2. 简单的命令行交互，上手门槛低
-3. 支持多行文本加密算法
+![License](https://img.shields.io/github/license/AllenLiu2026/chat-encryption-and-decryption)
+![Stars](https://img.shields.io/github/stars/AllenLiu2026/chat-encryption-and-decryption?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/AllenLiu2026/chat-encryption-and-decryption)
 
-## 使用方法
-1. 下载 `聊天加密解密 2.0.cpp` 源码
-2. 使用 C++ 编译器（如 Dev-C++、VS、GCC）编译运行
-3. 按照程序提示，输入密钥、加密/解密和加密文本（输入换行+ Ctrl z +换行结束），即可完成加密/解密
+## 项目简介
+- 一个使用 C++ 实现的简单聊天加密解密工具
+- 支持多种常见加密方式，适合学习和练习
 
-## 如果遇到版本兼容问题或有改进想法，欢迎提交Issues或Fork
+## 功能特性
+- 支持 **加密/解密** 常规文本
+- 易于扩展和修改
+- Beginner-friendly，新手友好
 
-## 点一个star吧~
+## 安装与运行
+
+```bash
+git clone https://github.com/AllenLiu2026/chat-encryption-and-decryption.git
+cd chat-encryption-and-decryption
+# 按实际情况编译
+g++ main.cpp -o chat_encryption
+./chat_encryption
+```
+
+## 使用示例
+
+```
+```
+
+## 贡献说明
+欢迎大家提交PR或者Issue！
+
+## License
+MIT
